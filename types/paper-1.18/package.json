@@ -1,0 +1,26 @@
+{
+  "name": "@graal-types/paper-1.18",
+  "version": "1.18-387",
+  "description": "Graal Types",
+  "dependencies": {
+    "@graal-types/java.base": "latest"
+  },
+  "tsbindOptions": {
+    "artifacts": [
+      "io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT",
+      "net.kyori:adventure-api:4.8.1",
+      "net.kyori:adventure-key:4.8.1",
+      "net.kyori:adventure-text-serializer-plain:4.8.1",
+      "net.kyori:adventure-text-serializer-legacy:4.8.1"
+    ],
+    "repos": [
+      "https://papermc.io/repo/repository/maven-public"
+    ],
+    "out": "paper-1.18",
+    "blacklist": [
+      "net.md_5.bungee.api",
+      "net.kyori.examination"
+    ],
+    "index": true
+  }
+}
