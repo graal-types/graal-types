@@ -2,9 +2,6 @@
   "name": "@graal-types/java-16",
   "version": "16.0.0",
   "description": "Graal Types",
-  "dependencies": {
-    "@graal-types/java.base": "latest"
-  },
   "tsbindOptions": {
     "offset": "java.base",
     "in": ["/usr/lib/jvm/openjdk-16/src.zip"],
