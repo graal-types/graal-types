@@ -1,0 +1,21 @@
+{
+  "name": "@graal-types/java-16",
+  "version": "16.0.0",
+  "description": "Graal Types",
+  "dependencies": {
+    "@graal-types/java.base": "latest"
+  },
+  "tsbindOptions": {
+    "offset": "java.base",
+    "in": ["/usr/lib/jvm/openjdk-16/src.zip"],
+    "out": "java-16",
+    "include": ["java.lang", "java.util", "java.io", "java.nio"],
+    "exclude": ["java.lang.Math",
+      "java.lang.StrictMath",
+      "java.util.concurrent",
+      "java.util.jar.Pack200",
+      "java.util.spi"
+    ],
+    "index": true
+  }
+}
