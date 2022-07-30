@@ -6,7 +6,7 @@
 
 ## Declaration Files
 
-To learn more about declaration files, see [TypeScript handbook](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).
+The declaration files within the `types` folder are purely type definitions with documentation. To learn more about declaration files, see [TypeScript handbook](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).
 
 
 You can install by doing one of the following (via npm/yarn):
