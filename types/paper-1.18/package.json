@@ -1,9 +1,9 @@
 {
   "name": "@graal-types/paper-1.18",
-  "version": "1.18-387",
+  "version": "1.0.0",
   "description": "Graal Types",
   "dependencies": {
-    "@graal-types/java.base": "latest"
+    "@graal-types/java-16": "^1.0.0"
   },
   "tsbindOptions": {
     "artifacts": [

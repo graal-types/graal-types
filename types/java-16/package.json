@@ -1,18 +1,33 @@
 {
   "name": "@graal-types/java-16",
-  "version": "16.0.0",
+  "version": "1.0.0",
   "description": "Graal Types",
   "tsbindOptions": {
     "offset": "java.base",
-    "in": ["/usr/lib/jvm/openjdk-16/src.zip"],
+    "in": [
+      "/usr/lib/jvm/openjdk-16/src.zip"
+    ],
     "out": "java-16",
-    "include": ["java.lang", "java.util", "java.io", "java.nio"],
-    "exclude": ["java.lang.Math",
+    "include": [
+      "java.lang",
+      "java.util",
+      "java.io",
+      "java.nio"
+    ],
+    "exclude": [
+      "java.lang.Math",
       "java.lang.StrictMath",
       "java.util.concurrent",
       "java.util.jar.Pack200",
       "java.util.spi"
     ],
     "index": true
-  }
+  },
+  "types": "./index.d.ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
