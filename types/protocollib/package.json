@@ -1,11 +1,11 @@
 {
   "name": "@graal-types/protocollib",
-  "version": "4.8.0",
+  "version": "4.8.0-1",
   "description": "Graal Types",
   "types": "./index.d.ts",
   "author": "Kyle Mercer",
   "license": "MIT",
   "dependencies": {
-    "@graal-types/java.base": "^1.0.0"
+    "@graal-types/java-16": "^1.0.0"
   }
 }

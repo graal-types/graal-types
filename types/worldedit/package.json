@@ -1,12 +1,12 @@
 {
   "name": "@graal-types/worldedit",
-  "version": "7.2.7-1",
+  "version": "7.2.7-2",
   "description": "Graal Types",
   "types": "./index.d.ts",
   "author": "Kyle Mercer",
   "license": "MIT",
   "dependencies": {
-    "@graal-types/java.base": "^1.0.0"
+    "@graal-types/java-16": "^1.0.0"
   },
   "tsbindOptions": {
     "artifacts": ["com.sk89q.worldedit:worldedit-core:7.2.7", "com.sk89q.worldedit:worldedit-bukkit:7.2.7"],
