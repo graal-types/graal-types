@@ -1,0 +1,11 @@
+{
+  "name": "@graal-types/protocolib",
+  "version": "4.8.0",
+  "description": "Graal Types",
+  "types": "./index.d.ts",
+  "author": "Kyle Mercer",
+  "license": "MIT",
+  "dependencies": {
+    "@graal-types/java.base": "^1.0.0"
+  }
+}
