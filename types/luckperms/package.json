@@ -1,11 +1,22 @@
 {
   "name": "@graal-types/luckperms",
-  "version": "5.4.30",
+  "version": "5.4.30-1",
   "description": "Graal Types",
   "types": "./index.d.ts",
   "author": "Kyle Mercer",
   "license": "MIT",
   "dependencies": {
     "@graal-types/java-16": "^1.0.0"
+  },
+  "tsbindOptions": {
+    "artifacts": [
+      "net.luckperms:api:5.4"
+    ],
+    "repos": [
+      "https://repo1.maven.org/maven2/net/luckperms/api/"
+    ],
+    "out": "luckperms",
+    "index": true,
+    "exclude": []
   }
 }
