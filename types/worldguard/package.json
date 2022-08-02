@@ -1,0 +1,24 @@
+{
+  "name": "@graal-types/worldguard",
+  "version": "7.0.7",
+  "description": "Graal Types",
+  "types": "./index.d.ts",
+  "author": "Kyle Mercer",
+  "license": "MIT",
+  "dependencies": {
+    "@graal-types/java-16": "^1.0.0",
+    "@graal-types/worldedit": "^7.2.7-2"
+  },
+  "tsbindOptions": {
+    "artifacts": [
+      "com.sk89q.worldguard:worldguard-bukkit:7.0.7",
+      "com.sk89q.worldguard:worldguard-core:7.0.7"
+    ],
+    "repos": [
+      "https://maven.enginehub.org/repo"
+    ],
+    "out": "worldguard",
+    "index": true,
+    "exclude": []
+  }
+}
