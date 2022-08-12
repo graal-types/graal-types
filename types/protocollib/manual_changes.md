@@ -1,0 +1,1 @@
+* `export class BootstrapList extends any[]` -> `export class BootstrapList` 

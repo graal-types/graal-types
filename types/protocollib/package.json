@@ -1,6 +1,6 @@
 {
   "name": "@graal-types/protocollib",
-  "version": "4.8.0-2",
+  "version": "4.8.0-3",
   "description": "Graal Types",
   "types": "./index.d.ts",
   "author": "Kyle Mercer",

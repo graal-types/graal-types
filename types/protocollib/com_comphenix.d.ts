@@ -6405,7 +6405,7 @@ export class ClosedInjector extends Injector {
   */
   getProtocolVersion(): number;
 }
-export class BootstrapList extends any[] {
+export class BootstrapList {
   /**
    * Construct a new bootstrap list.
    * @param delegate - the delegate.
