@@ -948,7 +948,6 @@ export class CustomEventType extends Enum<CustomEventType> {
   static readonly UNEQUIP: CustomEventType;
   static valueOf(name: string): CustomEventType;
   static values(): CustomEventType[];
-  readonly constructor: CustomListenerConstructor;
 }
 
 }
@@ -1316,6 +1315,7 @@ import { WrappedCrucibleItem } from 'io.th0rgal.oraxen.compatibilities.provided.
 import { Entry } from 'java.util.Map';
 import { ConfigsManager } from 'io.th0rgal.oraxen.config';
 import { WrappedMMOItem } from 'io.th0rgal.oraxen.compatibilities.provided.mmoitems';
+import { ItemStack } from 'org.bukkit.inventory';
 export class ModelData {
   getDurability(): number;
 }
@@ -1339,6 +1339,7 @@ export class OraxenItems {
   static itemStream(): Stream<ItemBuilder>;
   static entryStream(): Stream<Entry<string, ItemBuilder>>;
   static getItemNames(): string[];
+  static build(): ItemStack;
 }
 export class ItemBuilder {
   constructor(wrapped: WrappedMMOItem);
