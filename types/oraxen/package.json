@@ -1,0 +1,18 @@
+{
+  "name": "@graal-types/oraxen",
+  "version": "1.51.0",
+  "description": "Graal Types",
+  "types": "./index.d.ts",
+  "author": "Kyle Mercer",
+  "license": "MIT",
+  "dependencies": {
+    "@graal-types/java-16": "^1.0.0"
+  },
+  "tsbindOptions": {
+    "artifacts": ["com.github.oraxen:oraxen:56ea439283"],
+    "repos": ["https://jitpack.io"],
+    "out": "oraxen",
+    "index": true,
+    "exclude": []
+  }
+}
