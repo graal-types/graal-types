@@ -1,0 +1,29 @@
+{
+  "name": "@graal-types/paper-1.19",
+  "version": "1.0.1",
+  "description": "Graal Types",
+  "types": "./index.d.ts",
+  "author": "Kyle Mercer",
+  "license": "MIT",
+  "dependencies": {
+    "@graal-types/java-16": "^1.0.0"
+  },
+  "tsbindOptions": {
+    "artifacts": [
+      "io.papermc.paper:paper-api:1.19.1-R0.1-SNAPSHOT",
+      "net.kyori:adventure-api:4.8.1",
+      "net.kyori:adventure-key:4.8.1",
+      "net.kyori:adventure-text-serializer-plain:4.8.1",
+      "net.kyori:adventure-text-serializer-legacy:4.8.1"
+    ],
+    "repos": [
+      "https://papermc.io/repo/repository/maven-public"
+    ],
+    "out": "types/paper-1.19/1",
+    "blacklist": [
+      "net.md_5.bungee.api",
+      "net.kyori.examination"
+    ],
+    "index": true
+  }
+}

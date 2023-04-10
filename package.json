@@ -1,0 +1,22 @@
+{
+  "name": "graal-types",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/graal-types/graal-types.git",
+  "author": "Kyle <kyle.mercer.89@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./scripts/build.js",
+    "build": "java -jar ./scripts/java-ts-bind-all.jar --packageJson ../types/paper-1.19",
+    "bump": "changeset",
+    "release": "changeset publish"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.1"
+  },
+  "workspaces": [
+    "types/*",
+    "types/paper-1.19/*"
+  ]
+}
