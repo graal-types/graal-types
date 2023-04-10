@@ -7,8 +7,7 @@
   "author": "Kyle <kyle.mercer.89@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "node ./scripts/build.js",
-    "build": "java -jar ./scripts/java-ts-bind-all.jar --packageJson ../types/paper-1.19",
+    "build": "node ./scripts/build.js",
     "bump": "changeset",
     "release": "changeset publish"
   },
