@@ -1,5 +1,5 @@
 {
-  "name": "@graal-types/paper-1.19",
+  "name": "@graal-types/paper-1.19.1",
   "version": "1.0.1",
   "description": "Graal Types",
   "types": "./index.d.ts",
